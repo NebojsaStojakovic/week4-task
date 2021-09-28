@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Pod Request Access Landing Page</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="podcast">
+			<a href="#">
+				<img src="./assets/desktop/logo.svg" alt="logo" class="podcast__logo">
+			</a>
+			<div class="podcast__content">
+				<h1 class="podcast__title">Publish your podcasts <br> <strong>everywhere.</strong></h1>
+				<p class="podcast__info">Upload your audio to Pod with a single click. We’ll then distribute your
+					podcast to Spotify,
+					Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+				<div class="podcast__logos">
+					<div>
+						<img src="./assets/desktop/spotify.svg" alt="spotify" class="podcast__logo-spotify">
+					</div>
+					<div>
+						<img src="./assets/desktop/apple-podcast.svg" alt="apple podcast" class="podcast__logo-apple">
+					</div>
+					<div>
+						<img src="./assets/desktop/google-podcasts.svg" alt="google podcast"
+							class="podcast__logo-google">
+					</div>
+					<div>
+						<img src="./assets/desktop/pocket-casts.svg" alt="pocket casts" class="podcast__logo-pocket">
+					</div>
+				</div>
+				<form action="#">
+					<label for="email" class="sr-only">Email address</label>
+					<input class="podcast__input" type="email" name="email" id="email" placeholder="Email address"
+						aria-label="email address to request access" required>
+					<button class="podcast__btn" type="submit">Request Access</button>
+					<p class="podcast__error"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
